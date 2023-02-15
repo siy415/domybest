@@ -3,12 +3,14 @@
 -
   type: github
   icon: 'fab fa-github'
+  url: 'https://github.com/siy415'
 -
   type: twitter
   icon: 'fab fa-twitter'
 -
   type: email
   icon: 'fas fa-envelope'
+  url: 'siy0415@gmail.com'
   noblank: true            # open link in current tab
 -
   type: rss
