@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: 최선을 다하자!                         # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 계란으로 바위쳐도 언젠가는 깨진다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
