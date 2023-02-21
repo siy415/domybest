@@ -150,6 +150,10 @@ h1 + .post-meta {
         &.fa-weibo {
           @include btn-sharing-color(rgb(229, 20, 43));
         }
+
+        &.fa-instagram {
+          @include btn-sharing-color(rgb(0, 119, 181));
+        }
       }
     } /* .share-icons */
 
