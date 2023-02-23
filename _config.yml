@@ -10,7 +10,7 @@ baseurl: '/domybest'
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko-KR
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
@@ -93,7 +93,7 @@ comments:
     shortname: blogdomybest   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo:  https://siy415.github.io/domybest/       # <gh-username>/<repo>
+    repo:  siy415/domybest       # <gh-username>/<repo>
     issue_term: pathname  # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
