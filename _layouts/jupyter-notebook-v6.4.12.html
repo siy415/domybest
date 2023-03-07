@@ -1,7 +1,7 @@
 ---
-jupyter-version: "4.6.3"
-notebook-version: "6.1.6"
-nbconvert-version: "6.0.6"
+jupyter-version: "6.4.12"
+notebook-version: "6.3.0"
+nbconvert-version: "6.0.7"
 ---
 <!DOCTYPE html>
 <html>
@@ -13,7 +13,7 @@ nbconvert-version: "6.0.6"
     <link rel="stylesheet" href="{{ '/assets/css/jupyter-highlighter.css' | relative_url }}">
     <style type="text/css">
         .container {
-        width: 90% !important;
+        width: 100% !important;
     }
     </style>
 
@@ -96,11 +96,12 @@ nbconvert-version: "6.0.6"
       $(parent.document.getElementById(window.name)).css({
         'border': 0,
         'width': '100%',
-        'height': document.body.scrollHeight
-      });
+        'height': document.body.scrollHeight * 0.9,
+    });
     }
-    window.onload = resizeParentIframe;
-    window.onresize = resizeParentIframe;
+    parent.onload = resizeParentIframe;
+    parent.onresize = resizeParentIframe;
     $('img').on('load', resizeParentIframe);
-    </script>
+    parent.document.getElementById(window.name).onload = resizeParentIframe;
+</script>
 </html>

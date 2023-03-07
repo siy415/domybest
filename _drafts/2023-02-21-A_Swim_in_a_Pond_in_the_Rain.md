@@ -4,7 +4,7 @@ date: 2023-02-21 09:52 +0900
 categories: [Reading, literature]
 tags: [literature, book, reading, habit, selfdevelopment, review]     # TAG names should always be lowercase
 comments: true
-img_path: /assets/img/post/2023-02-21/
+img_path: /assets/img/post/2023-02-22/
 ---
 
 # 독후감 혹은 서평 혹은 읽히는대로 쓰기

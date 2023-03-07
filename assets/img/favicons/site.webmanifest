@@ -10,7 +10,7 @@ layout: compress
   "description": "{{ site.description }}",
   "icons": [
     {
-      "src": "{{ favicon_path }}/android-chrome-192x192",
+      "src": "{{ favicon_path }}/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },

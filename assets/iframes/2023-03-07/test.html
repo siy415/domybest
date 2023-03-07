@@ -1,0 +1,260 @@
+---
+layout: jupyter-notebook-v6.4.12
+---
+<div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[ 0.06850825, -2.72413714,  1.01983628],
+       [ 0.5936882 ,  1.25713998, -0.05037213]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ndarray 전체에 10을 곱한 것</span>
+<span class="n">data</span> <span class="o">*</span> <span class="mi">10</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[  0.68508247, -27.2413714 ,  10.19836283],
+       [  5.93688196,  12.57139979,  -0.50372129]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ndarray + ndarray</span>
+<span class="n">data</span> <span class="o">+</span> <span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[ 0.13701649, -5.44827428,  2.03967257],
+       [ 1.18737639,  2.51427996, -0.10074426]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(2, 3)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+    <div class="input">
+    
+    <div class="inner_cell">
+        <div class="input_area">
+    <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+    </pre></div>
+    
+        </div>
+    </div>
+    </div>
+    
+    <div class="output_wrapper">
+    <div class="output">
+    
+    <div class="output_area">
+    
+    
+    
+    <div class="output_text output_subarea output_execute_result">
+    <pre>(2, 3)</pre>
+    </div>
+    
+    </div>
+    
+    </div>
+    </div>
+    
+    </div>
+    <div class="cell border-box-sizing code_cell rendered">
+        <div class="input">
+        
+        <div class="inner_cell">
+            <div class="input_area">
+        <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+        </pre></div>
+        
+            </div>
+        </div>
+        </div>
+        
+        <div class="output_wrapper">
+        <div class="output">
+        
+        <div class="output_area">
+        
+        
+        
+        <div class="output_text output_subarea output_execute_result">
+        <pre>(2, 3)</pre>
+        </div>
+        
+        </div>
+        
+        </div>
+        </div>
+        
+        </div>
+        <div class="cell border-box-sizing code_cell rendered">
+            <div class="input">
+            
+            <div class="inner_cell">
+                <div class="input_area">
+            <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+            </pre></div>
+            
+                </div>
+            </div>
+            </div>
+            
+            <div class="output_wrapper">
+            <div class="output">
+            
+            <div class="output_area">
+            
+            
+            
+            <div class="output_text output_subarea output_execute_result">
+            <pre>(2, 3)</pre>
+            </div>
+            
+            </div>
+            
+            </div>
+            </div>
+            
+            </div>
+            <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(2, 3)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+</body>
