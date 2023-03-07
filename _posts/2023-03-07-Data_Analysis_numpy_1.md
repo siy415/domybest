@@ -30,19 +30,19 @@ comments: true
 <br>
  
 ### 기본적인 ndarray 처리
-<iframe id="f1" name="f1" src="/domybest/assets/iframes/2023-03-07/01_basic_ndarray/">Jupyter Notebook</iframe><br>
+<iframe id="f1" name="f1" src="/domybest/assets/iframes/2023-03-07/01_basic_ndarray.html">Jupyter Notebook</iframe><br>
 
 ### ndarray 생성
 - 기본적으로 **np.array()**를 이용하여 생성
     - 명시적으로 자료형을 지정하지 않는 한 생성시 적절한 자료형 추론(dtype으로 확인)
 - 다양한 ndarray 생성 함수를 이용한 생성
-<iframe id="f2" name="f2" src="/domybest/assets/iframes/2023-03-07/02_generation_ndarray/">Jupyter Notebook</iframe><br>
+<iframe id="f2" name="f2" src="/domybest/assets/iframes/2023-03-07/02_generation_ndarray.html">Jupyter Notebook</iframe><br>
 
 ### ndarray 산술연산
 - ndarray는 for문이 필요 없이 데이터를 일괄 처리 가능 → 벡터화
 - 같은 크기의 ndarray간 산술연산은 배열의 각 원소 단위로 적용됨
 - 스칼라 값으로 연산할 경우 모든 원소에 스칼라 값이 적용
 - 비교 연산의 경우 bool type을 갖는 ndarray 반환
-<iframe id="f3" name="f3" src="/domybest/assets/iframes/2023-03-07/03_calculate_ndarray/">Jupyter Notebook</iframe><br>
+<iframe id="f3" name="f3" src="/domybest/assets/iframes/2023-03-07/03_calculate_ndarray.html">Jupyter Notebook</iframe><br>
 
 - 크기가 다른 ndarray의 경우 브로드캐스팅을 이용헤 하는데 나중에 필요시 다시 기록해보겠다.
